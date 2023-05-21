@@ -59,13 +59,48 @@ ul {
 .top-heading .logo {
     width: 140px;
 }
+/* Navigation */
+
+.bg-white-edit{
+    background-color: #fff;
+    color: #676977;
+}
+
 
 .nav-scroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+ .white-text{
+    color: #fff;
+ }
+
+ .gray-text{
+    color: #676977;
+ }
+
+.navbar-collapse .collapse .show .navbar-expand-lg .navbar-nav .nav-link {
+    color: #676977;
+}
+
+.navbar-expand-lg .navbar-collapse{
     background-color: #fff;
 }
 
-.nav-scroll .navbar-expand-lg .navbar-nav .nav-link {
-    color: #676977;
+/* Respon */
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    height: 3.5em;
 }
 
 .top-heading::before {
@@ -79,8 +114,8 @@ ul {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    color: #fff;
-    padding: 0 10px;
+    color:#676977;
+    padding: 8px 10px;
 }
 
 .top-heading .nav-item:hover .nav-link {
@@ -1069,6 +1104,14 @@ ul {
     .col1 {
     width: 25%;
     float: left;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    padding: 0 10px;
+}
+.navbar-expand-lg .navbar-collapse{
+    background-color: unset;
 }
     .testimonials .testimonials-box {
         padding: 60px 45px 45px 45px;

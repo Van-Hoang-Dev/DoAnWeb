@@ -86,17 +86,28 @@ $('.owl-info').owlCarousel({
 })
 
 //Sử lý thanh cuộn của navigation
-// let imageContainer = document.getElementsByClassName("navbar-brand")[0];
-// let originalImage = document.getElementsByClassName("logo")[0];
-// const nav = document.querySelector(".navigation");
-// window.addEventListener("scroll", function () {
-//     nav.classList.toggle("fixed-top", window.scrollY > 10);
-//     nav.classList.toggle("nav-scroll", window.scrollY > 10);
+// const navbar = document.querySelector('.navbar');
+// const logoNav = document.querySelector('.logo');
+// const navLinks = document.querySelectorAll('.nav-link')
+// console.log(navLinks);
 
-//     let newImage = document.createElement('img');
-//     newImage.src = "public/images/logo-dark.png";
-//     newImage.alt = 'Travol Agency';
-
-//     imageContainer.replaceChild(newImage, originalImage);
-// });
+// window.onscroll = function(){mySrollDown()};
+// function mySrollDown(){
+//     if(document.documentElement.scrollTop > 50){
+//         navbar.classList.add('nav-scroll');
+//         navbar.classList.add('bg-white-edit');
+//         logoNav.setAttribute('src',"public/images/logo-dark.png" );
+//         navLinks.forEach(navlink => {
+//             navlink.style.color = "#676977";
+//         });
+//     }
+//     else {
+//         navbar.classList.remove('fixed-top');
+//         navbar.classList.remove('bg-white-edit');
+//         logoNav.setAttribute('src',"public/images/logo.png" );
+//         navLinks.forEach(navlink => {
+//             navlink.style.color = "#fff";
+//         });
+//     }
+// }
 
