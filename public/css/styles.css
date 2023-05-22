@@ -167,12 +167,11 @@ ul {
 
 /* Booking */
 .booking {
+    padding: 30px 0;
+    background-color: #f4f5f8;
 }
 .booking-inner  {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 1px 5px 10px -6px #ccc;
-    backdrop-filter: blur(5px);
 }
 
 .booking-inner .form-booking {
@@ -1071,7 +1070,16 @@ ul {
         width: 50%;
         float: left;
     }
-
+    .booking {
+        padding: 0;
+        background-color: unset;
+    }
+    .booking-inner  {
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 1px 5px 10px -6px #ccc;
+        backdrop-filter: blur(5px);
+    }
     .about .about-img {
         margin-left: 60px;
     }
