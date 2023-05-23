@@ -38,11 +38,13 @@ $('.owl-experience').owlCarousel({
     dots: false,
     responsive: {
         0: {
-            items: 1,
-            dots: true
+            items: 1
+            
         },
         600: {
-            items: 2
+            items: 2,
+            dots: true,
+            nav: false
         },
         1000: {
             items: 3
