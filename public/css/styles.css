@@ -586,6 +586,7 @@ ul {
     position: relative;
     max-height: 500px;
     overflow: hidden;
+    display: flex;
 }
 
 .dynamic-video video {
@@ -1131,6 +1132,16 @@ ul {
         border-left: 1px solid rgba(130, 126, 126, 0.1);
     }
 
+    .widget-newsletter input{
+        height: 40px;
+    }
+
+    .widget-newsletter button{
+        height: 45px;
+        top:45px;
+        right: 0;
+    }
+
     .footer-contact .col-md-4:nth-child(2) {
         border-left: 1px solid rgba(255, 255, 255, 0.1);
         border-right: 1px solid rgba(255, 255, 255, 0.1);
@@ -1182,6 +1193,16 @@ ul {
     .footer-contact .col-md-4 {
         display: flex;
         justify-content: center;
+    }
+
+        .widget-newsletter input{
+        height: 60px;
+    }
+
+    .widget-newsletter button{
+        height: 50px;
+        top:5px;
+        right: 10px;
     }
 }
 
