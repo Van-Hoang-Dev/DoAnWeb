@@ -59,7 +59,7 @@ $('.owl-logo').owlCarousel({
     nav: false,
     dots: false,
     autoplay: true,
-    autoplayTimeout: 3000,
+    autoplayTimeout: 2000,
     responsive: {
         0: {
             items: 3
