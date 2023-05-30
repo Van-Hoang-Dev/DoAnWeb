@@ -586,7 +586,7 @@ ul {
     position: relative;
     max-height: 500px;
     overflow: hidden;
-    display: flex;
+    /* display: flex; */
 }
 
 .dynamic-video video {
@@ -1100,6 +1100,10 @@ ul {
     }
     .about .about-img {
         margin-left: 60px;
+    }
+
+    .dynamic-video {
+        display: flex;
     }
 
     .dynamic-video::before {
